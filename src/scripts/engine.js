@@ -32,7 +32,7 @@ function countDown()
         alert("Game Over! O seu resultado foi: " + state.values.result);
     }
 }
-function playSound()
+function playsound()
 {
     let audio = new Audio("./src/audios/hit.m4a")
     audio.volume = 0.2;
